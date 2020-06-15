@@ -97,24 +97,39 @@ footer {
     flex-flow: row wrap;
 }
 
-header content-wrapper {
+header {
+    padding: 15px 0;
+}
+
+header .content-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    margin: 0;
+}
+
+header-divider {
+    width: 100%;
 }
 
 header nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
+    width: 60%;
 }
 
 header nav ul {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+footer .content-wrapper {
+    width: 55%;
+    margin: 50px 0;
 }
 
 footer social-icons {
@@ -127,6 +142,10 @@ footer .social {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+footer p {
+    margin: 0;
 }
 
 hero-area {
@@ -150,6 +169,10 @@ aside {
     flex-flow: row wrap;
 }
 
+.features article {
+    width: 55%;
+}
+
 .features features-items {
     display: flex;
     justify-content: center;
@@ -157,11 +180,19 @@ aside {
     flex-flow: row wrap;
 }
 
+.features p {
+    margin: 0;
+}
+
 .reviews {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+}
+
+.reviews h3 {
+    width: 90%;
 }
 
 .mission {
@@ -191,7 +222,6 @@ contact-section {
     align-items: center;
     flex-flow: row wrap;
 }
-
 
 
 
